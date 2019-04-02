@@ -1,14 +1,11 @@
+.section {
+  margin: 5vh 5vh;
+}
+
 .homepage {
   display: flex;
   height: 100vh;
   flex-direction: column;
   justify-content: center;
-
-  /*background-color: blue;*/
-  /*border: 1px solid red;*/
 }
 
-.homepage .banner {
-  /*background: green;*/
-  /*height: 10vh;*/
-}
