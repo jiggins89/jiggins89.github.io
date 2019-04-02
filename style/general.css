@@ -1,0 +1,16 @@
+body {
+  /*background colour*/
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+
+  /* general text style*/
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+/*specific text styles*/
+h1 {
+  font-weight: 400;
+}
