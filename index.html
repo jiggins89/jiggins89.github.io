@@ -2,24 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>John Higgins - Full Stack Dev!</title>
     <meta name="description" content="The profile page of John Higgins!">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <link rel="stylesheet" href="style/styles.css">
   </head>
 
   <body>
     <div class="container">
-      <div class="homepage">
-        <div>
-          <h1>Hi, I'm John.</h1>
-          <p>
-            I'm a full stack developer living in London.
-            <br>
-            I build web apps...
-          </p>
+      <div class="homepage d-flex">
+        <img src="images/logo.png" alt="John Higgins Technologies Logo" id="logo">
+        <div class="align-center">
+          <h1>John Higgins</h1>
+          <p>Full Stack Developer</p>
         </div>
         <div class="scroll-down"></div>
       </div>
@@ -27,6 +25,8 @@
       <div class="section about">
         <h4>About me</h4>
         <p>
+          Hi, I'm John. I'm a full stack developer living in London.
+          <br>
           Originally from the west of Ireland but living in London since 2015.
           I previously worked in the construction industry for six years before deciding that my future lay in the tech industry.
           <br>
@@ -36,7 +36,9 @@
 
       <div class="section projects">
         <h4>My Work</h4>
-        <img src="/images/my-dressmaker.png" class="project-img" alt="my-dressmaker.com">
+        <a href="https://www.my-dressmaker.com" target="_blank">
+          <img src="/images/my-dressmaker.png" class="project-img" alt="my-dressmaker.com">
+        </a>
         <img src="/images/my-scooter.png" class="project-img">
         <img src="/images/mister-cocktail.png" class="project-img">
 
@@ -45,8 +47,8 @@
 
     <div class="footer">
       <div class="footer-links">
-        <a href="https://github.com/jiggins89"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/johnhig/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/jiggins89" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/johnhig" target="_blank"><i class="fab fa-linkedin"></i></a>
       </div>
       <div class="footer-copyright">
         Made with <i class="fas fa-heart"></i> by John Higgins
