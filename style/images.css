@@ -28,7 +28,7 @@
   background-color: #87CEEB;
 }
 
-.img-container:hover .overlay {
+.img-container:hover, .img-container:active .overlay {
   opacity: 1;
 }
 
