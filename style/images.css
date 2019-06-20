@@ -14,7 +14,6 @@
   /*width: 50%;*/
 }
 
-
 .overlay {
   position: absolute;
   top: 0;
@@ -28,7 +27,7 @@
   background-color: #87CEEB;
 }
 
-.img-container:hover, .img-container:active .overlay {
+.img-container:hover .overlay {
   opacity: 1;
 }
 
